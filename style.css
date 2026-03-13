@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    background: #fff no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+
+}
+html{
+    font-size: 62.5%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+
+}
+
+.logo{
+    margin-left: 10rem;
+}
+
+.logo img{
+    width: 8rem;
+}
+
+.nav-items{
+    display: flex;
+    gap:4rem;
+    margin-right: 10rem;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: #646464;
+    transition: 0.4s;
+    font-size: 1.6rem;
+}
+.nav-items a:hover{
+    font-weight: 600;
+    transform: scale(1.02);
+}
+
+
+
+.profile{
+    background-color: azure;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.profile-des{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+    margin-top: 15rem;
+
+}
+
+.profile-des h2{
+    font-size: 3.6rem;
+    font-weight: 600;
+
+}
+
+.profile-des h1{
+    font-size: 5.4rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 1.5rem;
+}
+.profile-des h1 span{
+    color: #00a2e3;
+    font-weight: 800;
+}
+
+.profile-des p{
+    color: #646464;
+    font-weight: 400;
+    width: 45rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.btn{
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.book-btn{
+    background-color: #00a2e3;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.download-btn{
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.8rem 1.2rem;
+    color: #646464;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+.profile-img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.profile-img img{
+    width: 80rem;
+}
+
+
+/*for mobile devices*/
+
+@media (max-width: 41.5rem){
+    html{
+        font-size: 25%;
+    }
+    .btn{
+        flex-wrap: wrap;
+    }
+   
+}
